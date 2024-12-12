@@ -724,12 +724,12 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     qti-telephony-common \
     vendor.qti.hardware.alarm-V1.0-java \
-    android.hardware.gnss@2.1-service-qti \
-    android.hardware.neuralnetworks@1.3-service-qti \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    manifest_vendor.xiaomi.hardware.mlipay \
-    manifest_vendor.xiaomi.hardware.mtdservice \
-    vendor.qti.gnss@4.0-service
+    android.hardware.gnss@2.1-service-qti.xml \
+    android.hardware.neuralnetworks@1.3-service-qti.xml \
+    manifest_android.hardware.drm@1.3-service.widevine.xml \
+    manifest_vendor.xiaomi.hardware.mlipay.xml \
+    manifest_vendor.xiaomi.hardware.mtdservice.xml \
+    vendor.qti.gnss@4.0-service.xml
 
 ifeq ($(TARGET_HAS_NFC),true)
 PRODUCT_COPY_FILES += \
