@@ -193,7 +193,7 @@ PRODUCT_PACKAGES += \
     libllvm-glnext \
     libllvm-qcom \
     libmdsprpc \
-    libmmosal \
+    libmmosal_vendor \
     libops \
     libpvr \
     libqcci_legacy \
@@ -270,16 +270,16 @@ PRODUCT_PACKAGES += \
     libshoebox \
     vendor.qti.hardware.scve.objecttracker@1.0 \
     vendor.qti.hardware.scve.panorama@1.0 \
-    vendor.qti.hardware.wifidisplaysession@1.0 \
+    vendor.qti.hardware.wifidisplaysession@1.0_vendor \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
-    com.qualcomm.qti.dpm.api@1.0 \
-    com.qualcomm.qti.imscmservice@1.0 \
-    com.qualcomm.qti.imscmservice@2.0 \
-    com.qualcomm.qti.imscmservice@2.1 \
-    com.qualcomm.qti.imscmservice@2.2 \
-    com.qualcomm.qti.uceservice@2.0 \
-    com.qualcomm.qti.uceservice@2.1 \
-    com.qualcomm.qti.uceservice@2.2 \
+    com.qualcomm.qti.dpm.api@1.0_vendor \
+    com.qualcomm.qti.imscmservice@1.0_vendor \
+    com.qualcomm.qti.imscmservice@2.0_vendor \
+    com.qualcomm.qti.imscmservice@2.1_vendor \
+    com.qualcomm.qti.imscmservice@2.2_vendor \
+    com.qualcomm.qti.uceservice@2.0_vendor \
+    com.qualcomm.qti.uceservice@2.1_vendor \
+    com.qualcomm.qti.uceservice@2.2_vendor \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gnss@2.1-impl-qti \
     vendor.qti.gnss@4.0-impl \
@@ -419,7 +419,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@3.0 \
     vendor.qti.gnss@4.0-service \
     vendor.qti.gnss@4.0 \
-    vendor.qti.hardware.alarm@1.0 \
+    vendor.qti.hardware.alarm@1.0_vendor \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
     vendor.qti.hardware.cacert@1.0 \
@@ -432,18 +432,18 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.iwlan@1.0 \
     vendor.qti.hardware.data.latency@1.0 \
     vendor.qti.hardware.data.qmi@1.0 \
-    vendor.qti.hardware.fm@1.0 \
+    vendor.qti.hardware.fm@1.0_vendor \
     vendor.qti.hardware.qccsyshal@1.0 \
     vendor.qti.hardware.qccvndhal@1.0-halimpl \
     vendor.qti.hardware.qccvndhal@1.0 \
     vendor.qti.hardware.qteeconnector@1.0 \
-    vendor.qti.hardware.radio.am@1.0 \
+    vendor.qti.hardware.radio.am@1.0_vendor \
     vendor.qti.hardware.radio.atcmdfwd@1.0 \
-    vendor.qti.hardware.radio.ims@1.0 \
-    vendor.qti.hardware.radio.ims@1.1 \
-    vendor.qti.hardware.radio.ims@1.2 \
-    vendor.qti.hardware.radio.ims@1.3 \
-    vendor.qti.hardware.radio.ims@1.4 \
+    vendor.qti.hardware.radio.ims@1.0_vendor \
+    vendor.qti.hardware.radio.ims@1.1_vendor \
+    vendor.qti.hardware.radio.ims@1.2_vendor \
+    vendor.qti.hardware.radio.ims@1.3_vendor \
+    vendor.qti.hardware.radio.ims@1.4_vendor \
     vendor.qti.hardware.radio.ims@1.5 \
     vendor.qti.hardware.radio.ims@1.6 \
     vendor.qti.hardware.radio.internal.deviceinfo@1.0 \
@@ -467,14 +467,14 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@1.1 \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.ims.callcapability@1.0 \
-    vendor.qti.ims.callinfo@1.0 \
+    vendor.qti.ims.callinfo@1.0_vendor \
     vendor.qti.ims.factory@1.0 \
-    vendor.qti.ims.rcsconfig@1.0 \
+    vendor.qti.ims.rcsconfig@1.0_vendor \
     vendor.qti.ims.rcsconfig@1.1 \
     vendor.qti.ims.rcsconfig@2.0 \
     vendor.qti.ims.rcsconfig@2.1 \
     vendor.qti.imsrtpservice@3.0-service-Impl \
-    vendor.qti.imsrtpservice@3.0 \
+    vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
     capi_v2_aptX_Classic \
     capi_v2_aptX_HD \
