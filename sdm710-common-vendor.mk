@@ -157,7 +157,6 @@ PRODUCT_PACKAGES += \
     libOmxEvrcDec \
     libOmxG711Dec \
     libOmxQcelp13Dec \
-    libOmxVpp \
     libOmxWmaDec \
     libOpenCL \
     libQSEEComAPI \
@@ -206,7 +205,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     libFileMux_proprietary \
     libOmxDsdDec \
-    libOmxVideoDSMode \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
