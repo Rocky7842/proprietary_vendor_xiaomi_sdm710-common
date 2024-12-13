@@ -145,26 +145,18 @@ PRODUCT_PACKAGES += \
     libq3dtools_adreno \
     libq3dtools_esx \
     vulkan.adreno \
-    libAlacSwDec \
-    libApeSwDec \
     libC2D2 \
     libCB \
-    libFlacSwDec \
     libGPreqcancel \
     libGPreqcancel_svc \
-    libMpeg4SwEncoder \
     libOmxAacDec \
     libOmxAlacDec \
-    libOmxAlacDecSw \
     libOmxAmrDec \
     libOmxAmrwbplusDec \
     libOmxApeDec \
-    libOmxApeDecSw \
     libOmxEvrcDec \
     libOmxG711Dec \
     libOmxQcelp13Dec \
-    libOmxSwVdec \
-    libOmxSwVencMpeg4 \
     libOmxVpp \
     libOmxWmaDec \
     libOpenCL \
@@ -202,7 +194,6 @@ PRODUCT_PACKAGES += \
     libsecureui \
     libsecureui_svcsock \
     libssd \
-    libswvdec \
     libsysmon_cdsp_skel \
     libthermalclient \
     libtime_genoff \
