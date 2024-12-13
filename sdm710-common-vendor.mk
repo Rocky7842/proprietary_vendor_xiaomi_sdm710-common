@@ -6,9 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/sdm710-common
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/sdm710-common/proprietary/system_ext/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_libpermissions.xml \
-    vendor/xiaomi/sdm710-common/proprietary/system_ext/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_permissions.xml \
-    vendor/xiaomi/sdm710-common/proprietary/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/xiaomi/sdm710-common/proprietary/odm/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_ODM)/etc/media_profiles_V1_0.xml \
     vendor/xiaomi/sdm710-common/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/xiaomi/sdm710-common/proprietary/system_ext/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/wfdservice \
@@ -714,19 +711,22 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
-    tcmclient \
     WfdCommon \
+    tcmclient \
     com.qti.dpmframework \
     dpmapi \
     qcrilhook \
     qti-telephony-common \
     vendor.qti.hardware.alarm-V1.0-java \
+    qti_whitelist.xml \
     android.hardware.gnss@2.1-service-qti.xml \
     android.hardware.neuralnetworks@1.3-service-qti.xml \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
     manifest_vendor.xiaomi.hardware.mlipay.xml \
     manifest_vendor.xiaomi.hardware.mtdservice.xml \
-    vendor.qti.gnss@4.0-service.xml
+    vendor.qti.gnss@4.0-service.xml \
+    qti_libpermissions.xml \
+    qti_permissions.xml
 
 ifeq ($(TARGET_HAS_NFC),true)
 PRODUCT_COPY_FILES += \

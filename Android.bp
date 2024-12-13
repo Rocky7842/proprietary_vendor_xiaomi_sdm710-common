@@ -30,7 +30,7 @@ cc_prebuilt_library_shared {
 android_app_import {
 	name: "SoterService",
 	owner: "xiaomi",
-	apk: "proprietary/app/SoterService/SoterService.apk",
+	apk: "proprietary/system/app/SoterService/SoterService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -152,15 +152,15 @@ android_app_import {
 }
 
 dex_import {
-	name: "tcmclient",
-	owner: "xiaomi",
-	jars: ["proprietary/framework/tcmclient.jar"],
-}
-
-dex_import {
 	name: "WfdCommon",
 	owner: "xiaomi",
 	jars: ["proprietary/system/framework/WfdCommon.jar"],
+}
+
+dex_import {
+	name: "tcmclient",
+	owner: "xiaomi",
+	jars: ["proprietary/system/framework/tcmclient.jar"],
 }
 
 dex_import {
@@ -196,6 +196,14 @@ dex_import {
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar"],
 	system_ext_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "qti_whitelist.xml",
+	owner: "xiaomi",
+	src: "proprietary/system/etc/sysconfig/qti_whitelist.xml",
+	filename_from_src: true,
+	sub_dir: "sysconfig",
 }
 
 prebuilt_etc_xml {
@@ -250,5 +258,23 @@ prebuilt_etc_xml {
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "qti_libpermissions.xml",
+	owner: "xiaomi",
+	src: "proprietary/system_ext/etc/permissions/qti_libpermissions.xml",
+	filename_from_src: true,
+	sub_dir: "permissions",
+	system_ext_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "qti_permissions.xml",
+	owner: "xiaomi",
+	src: "proprietary/system_ext/etc/permissions/qti_permissions.xml",
+	filename_from_src: true,
+	sub_dir: "permissions",
+	system_ext_specific: true,
 }
 
