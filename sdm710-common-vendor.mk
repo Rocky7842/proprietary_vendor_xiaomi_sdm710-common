@@ -361,6 +361,7 @@ PRODUCT_PACKAGES += \
     libpdnotifier \
     libperipheral_client \
     libpn553_fw \
+    libqcbor \
     libqcc_file_agent \
     libqcrilFramework \
     libqdma_file_agent \
