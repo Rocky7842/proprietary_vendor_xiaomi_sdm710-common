@@ -149,15 +149,6 @@ PRODUCT_PACKAGES += \
     libCB \
     libGPreqcancel \
     libGPreqcancel_svc \
-    libOmxAacDec \
-    libOmxAlacDec \
-    libOmxAmrDec \
-    libOmxAmrwbplusDec \
-    libOmxApeDec \
-    libOmxEvrcDec \
-    libOmxG711Dec \
-    libOmxQcelp13Dec \
-    libOmxWmaDec \
     libOpenCL \
     libQSEEComAPI \
     libSecureUILib \
@@ -204,7 +195,6 @@ PRODUCT_PACKAGES += \
     btaudio_offload_if \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     libFileMux_proprietary \
-    libOmxDsdDec \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
@@ -212,7 +202,6 @@ PRODUCT_PACKAGES += \
     libaudcal \
     libbluetooth_audio_session_qti \
     libcppf \
-    libdsd2pcm \
     libfastcrc \
     libmmrtpdecoder_proprietary \
     libmmrtpencoder_proprietary \
