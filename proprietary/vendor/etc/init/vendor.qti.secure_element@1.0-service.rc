@@ -2,4 +2,3 @@ service secureelement-hal /vendor/bin/hw/vendor.qti.secure_element@1.0-service
     class hal
     user system
     group system
-    disabled
