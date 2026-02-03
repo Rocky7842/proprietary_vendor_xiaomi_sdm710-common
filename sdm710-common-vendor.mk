@@ -454,10 +454,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0-service-Impl \
     vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
-    capi_v2_aptX_Classic \
-    capi_v2_aptX_HD \
-    libscveObjectSegmentation_skel \
-    libscveT2T_skel \
+    vendor_lib_rfsa_adsp_capi_v2_aptX_Classic_so \
+    vendor_lib_rfsa_adsp_capi_v2_aptX_HD_so \
+    vendor_lib_rfsa_adsp_libscveObjectSegmentation_skel_so \
+    vendor_lib_rfsa_adsp_libscveT2T_skel_so \
     libmmosal \
     libmmparser_lite \
     libmmrtpdecoder \
